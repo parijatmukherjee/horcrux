@@ -62,7 +62,7 @@ If you're a solo dev thinking about leadership, give it a try — but not just f
 
 And if you're already leading and feeling imposter-y... congratulations. That means you're thinking, growing, and doing it right.
 
-## 🎬 Curtain Call
+#### 🎬 Curtain Call
 
 From skipping college classes for a job, to failing my first review, to getting that first big break with CI/CD, to now building and leading growth-focused teams — it’s been one heck of a journey.
 
