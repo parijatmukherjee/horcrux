@@ -15,7 +15,7 @@ color = ""   # custom color per post (if theme supports)
 
 If you had told the 2013 version of me — a C#-writing, NUnit-debugging rookie at Alumnus Software Limited, Kolkata — that I’d one day be leading multiple cross-functional teams in Berlin, I probably would've just blinked, nodded, and gone back to debugging with a coffee. But here we are.
 
-This post isn’t a blueprint for becoming a manager or a tech influencer. It’s just my story — from breaking CI/CD in the early days to building it from scratch, from being too chill as a fresher to mentoring folks across countries.
+This post isn’t a blueprint for becoming a manager. It’s just my story — from breaking CI/CD in the early days to building it from scratch, from being too chill as a fresher to mentoring folks across countries.
 
 #### 🏫 My (Not-So) Ordinary Beginning
 
