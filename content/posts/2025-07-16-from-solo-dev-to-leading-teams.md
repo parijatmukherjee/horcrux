@@ -1,9 +1,17 @@
----
-title: "From Solo Dev to Leading Teams: My Journey in Tech"
-date: 2025-07-16
-draft: false
-tags: ["engineering", "career", "leadership", "management", "tech"]
----
++++
+title = "From Solo Dev to Leading Teams: My Journey in Tech" 
+date = "2025-07-16" 
+author = "" 
+authorTwitter = ""  # without @
+cover = ""          # cover image URL
+coverCaption = ""   # optional caption under image
+tags = ["engineering", "career", "leadership", "management", "tech"]
+keywords = ["engineering", "career", "leadership", "management", "tech"]
+showFullContent = false   # if false, theme might show summary
+readingTime = true       # disable "X min read" (if supported)
+hideComments = false      # enable/disable comments per post
+color = ""   # custom color per post (if theme supports)
++++
 
 If you had told the 2013 version of me — a C#-writing, NUnit-debugging rookie at Alumnus Software Limited, Kolkata — that I’d one day be leading multiple cross-functional teams in Berlin, I probably would've just blinked, nodded, and gone back to debugging with a coffee. But here we are.
 
