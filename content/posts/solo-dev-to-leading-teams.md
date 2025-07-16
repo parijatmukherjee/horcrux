@@ -47,7 +47,7 @@ Let me be honest — when I was a software engineer, I used to think managers ha
 
 Wrong. So wrong.
 
-As a manager, you’re accountable for results, but you’re not the one executing the tasks. It’s like trying to win a match without playing — your success depends entirely on your team’s success, and your job is to enable, coach, clear the path, and — often — absorb the chaos.
+As a manager, you’re accountable for results, but you’re not the one executing the tasks. It’s like trying to win a Quidditch match without flying the broom. Your success depends entirely on your team’s success, and your job is to enable, coach, clear the path, and — often — absorb the chaos.
 
 #### 💡 Lessons Along the Way
 
