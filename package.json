@@ -1,0 +1,15 @@
+{
+  "name": "horcrux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "hugo --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "hugo-extended": "^0.148.1"
+  }
+}
