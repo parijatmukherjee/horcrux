@@ -107,5 +107,7 @@ name = "Parijat Mukherjee"
 [markup]
   [markup.highlight]
     noClasses = false
-
 pygmentsUseClasses = true
+
+[outputs]
+  home = ["HTML", "RSS"]
