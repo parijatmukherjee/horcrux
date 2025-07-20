@@ -1,6 +1,6 @@
 baseURL = "https://blog.parijatmukherjee.com/"
 title = "Breakpoint."
-theme = "PaperMod"
+theme = ["PaperMod"]
 
 [pagination]
   pagerSize = 10
