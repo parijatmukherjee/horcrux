@@ -1,97 +1,117 @@
-baseurl = "https://blog.parijatmukherjee.com/"
-languageCode = "en-us"
-# Add it only if you keep the theme in the `themes` directory.
-# Remove it if you use the theme as a remote Hugo Module.
-theme = "re-terminal"
-pagination.pagerSize = 5
-title = "📝 The Daily Pensieve"
+baseURL = "https://blog.parijatmukherjee.com/"
+title = "Breakpoint."
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[site]
+name = "Parijat Mukherjee"
+
+[minify]
+  disableXML = true
+  minifyOutput = true
 
 [params]
-  # dir name of your main content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+  env = "production"
+  title = "Breakpoint."
+  name = "Parijat Mukherjee"
+  description = "Pause. Reflect. Resume with clarity."
+  keywords = ["Blog", "Portfolio"]
+  author = "Parijat Mukherjee"
+  images = ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat = "January 2, 2006"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
 
-  # ["orange", "blue", "red", "green", "pink", "paper"]
-  themeColor = "blue"
+  [params.assets]
+    favicon = "<link / abs url>"
+    favicon16x16 = "<link / abs url>"
+    favicon32x32 = "<link / abs url>"
+    apple_touch_icon = "<link / abs url>"
+    safari_pinned_tab = "<link / abs url>"
 
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+  [params.analytics.google]
+    SiteVerificationTag = "XYZabc"
 
-  # show selector to switch language
-  showLanguageSelector = false
+  [params.analytics.bing]
+    SiteVerificationTag = "XYZabc"
 
-  # set theme to full screen width
-  fullWidthTheme = false
+  [params.analytics.yandex]
+    SiteVerificationTag = "XYZabc"
 
-  # center theme with default width
-  centerTheme = true
+  [params.cover]
+    hidden = true
+    hiddenInList = true
+    hiddenInSingle = true
 
-  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
-  # then the file will be used as a cover automatically.
-  # With this option you don't have to put the `cover` param in a front-matter.
-  autoCover = true
+  [params.editPost]
+    URL = "https://github.com/<path_to_repo>/content"
+    Text = "Suggest Changes"
+    appendFilePath = true
 
-  # set post to show the last updated
-  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    limit = 10
+    keys = ["title", "permalink", "summary", "content"]
 
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+[menu]
 
-  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
 
-  # set all headings to their default size (depending on browser settings)
-  # oneHeadingSize = true # default
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "https://www.parijatmukherjee.com"
+    weight = 20
 
-  # whether to show a page's estimated reading time
-  # readingTime = true # default
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 30
 
-  # whether to show a table of contents
-  # can be overridden in a page's front-matter
-  # Toc = false # default
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 40
 
-  # set title for the table of contents
-  # can be overridden in a page's front-matter
-  # TocTitle = "Table of Contents" # default
+[markup]
+  [markup.highlight]
+    noClasses = false
 
-  copyright = "Copyright © 2025"
-  languageName = "English"
-  title = "This site belongs to the Half-Blogged Prince"
-  subtitle = "The Daily Pensieve by Parijat Mukherjee"
-  owner = "Parijat Mukherjee"
-  keywords = ""
-  menuMore = "Show more"
-  readMore = "Read more"
-  readOtherPosts = "Read other posts"
-  newerPosts = "Newer posts"
-  olderPosts = "Older posts"
-  missingContentMessage = "Page not found..."
-  missingBackButtonLabel = "Back to home page"
-  minuteReadingTime = "min read"
-  words = "words"
-
-[params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
-  creator = ""
-  site = ""
-
-[params.logo]
-  logoText = "The Daily Pensieve by Parijat Mukherjee"
-
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
-
-[[menu.main]]
-  name = "Blog"
-  url = "/posts/"
-  weight = 2
-
-[[menu.main]]
-  name = "About"
-  url = "/about/"
-  weight = 3
+pygmentsUseClasses = true
