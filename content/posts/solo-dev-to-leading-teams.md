@@ -1,6 +1,5 @@
 +++
 title = "From Solo Dev to Leading Teams: My Journey in Tech"
-date = 2025-07-16
 tags = ["engineering", "career", "leadership", "management", "tech"]
 categories = ["career"]
 summary = "From rookie coder to engineering manager — a journey of missteps, milestones, and lessons in leadership."
