@@ -2,7 +2,7 @@
 title = "What I Really Look for in Interviews (And It’s Not Just the Answers)"
 tags = ["hiring", "engineering", "interviewing", "leadership", "tech"]
 categories = ["career"]
-summary = "As a hiring manager, I’m less interested in rehearsed answers and more in how you think, work, and grow. Here's what I quietly pay attention to in interviews."
+summary = "As a hiring manager, I’m less interested in rehearsed answers and more in how you think, work, and grow."
 showFullContent = false
 readingTime = true
 hideComments = false
