@@ -5,6 +5,7 @@ author = "Parijat Mukherjee"
 tags = ["growth engineering", "product engineering", "team leadership", "experimentation", "engineering culture"]
 categories = ["engineering", "team building", "reflections"]
 draft = false
+shareButtons = ["linkedin", "reddit"]
 +++
 
 When I first moved into Growth Engineering, I thought I was just joining a different product team.

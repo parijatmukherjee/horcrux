@@ -10,7 +10,7 @@ shareButtons = ["linkedin", "reddit"]
 draft = false
 +++
 
-Over the years, I’ve interviewed a fair number of engineers — some fresh out of college, others with years of experience under their belts. The process has taught me one important truth: 
+Over the years, I’ve interviewed a fair number of engineers — some fresh out of college, others with years of experience under their belts. The process has taught me one important truth:
 
 > Great candidates often reveal themselves between the lines.
 
