@@ -22,7 +22,7 @@ name = "Parijat Mukherjee"
   minifyOutput = true
 
 [params]
-  homeInfoParams = { title = "Warm Logs by Parijat !", content = "Hi there 👋 The blog is sometimes about code, sometimes about people — always about learning. These are notes from the in-between: where bugs teach, feedback stings, and growth sneaks in quietly. I don’t have all the answers, but I do have stories — shaped by experience, reflection, and the occasional late-night debug session." }
+  homeInfoParams = { title = "Warm Logs by Parijat.", content = "Hi there 👋 The blog is sometimes about code, sometimes about people — always about learning. These are notes from the in-between: where bugs teach, feedback stings, and growth sneaks in quietly. I don’t have all the answers, but I do have stories — shaped by experience, reflection, and the occasional late-night debug session." }
   homeInfoMode = "auto"
   env = "production"
   title = "Breakpoint."
