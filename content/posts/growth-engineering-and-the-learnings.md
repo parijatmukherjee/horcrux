@@ -1,6 +1,5 @@
 +++
 title = "Growth Engineering: Lessons from the Fast Lane"
-date = 2025-08-05
 author = "Parijat Mukherjee"
 tags = ["growth engineering", "product engineering", "team leadership", "experimentation", "engineering culture"]
 categories = ["engineering", "team building", "reflections"]
