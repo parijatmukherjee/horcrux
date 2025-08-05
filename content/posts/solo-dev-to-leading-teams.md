@@ -35,7 +35,7 @@ At Seamless, I wore many hats — developer, lead, crisis manager, you name it. 
 
 Moving to Berlin and joining Omio in 2019 opened a whole new chapter. I currently lead the App Growth team — a wonderful mix of engineers, PMs, and calendars full of back-to-back meetings.
 
-My job today? A blend of strategy, mentoring, problem-solving, and the occasional `kubectl` command when nobody's watching.
+My job today? A blend of strategy, mentoring, problem-solving, and the occasional `make` or `yarn` command when nobody's watching.
 
 #### 🤦‍♂️ From “Managers Do Nothing” to “Oh Wait…”
 
